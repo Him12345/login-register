@@ -1,0 +1,98 @@
+.signup{
+    /* border: 1px solid black ; */
+    padding: 1rem;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.image-illustration img{
+    /* border: 2px solid black; */
+    height: 25vw;
+    width: 35vw;
+}
+.container{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3vw;
+    border-radius: 1vw;
+    box-shadow: .1vw .1vw .5vw;
+
+}
+.signup-content{
+    /* border: 1px solid black; */
+    padding-left: 5vw;
+    padding-right: 5vw;
+    box-shadow: .5vw .7vw 1vw;
+    border-radius: 1vw;
+
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-form{
+    padding: 3rem;
+}
+
+.register-form input{
+    padding: .5rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+.register-form .form-group{
+    padding: .5rem;
+    outline: none;
+    
+}
+
+
+.register-form .form-button input{
+    
+    border-radius: .4vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    background-color: #f8755e;
+    border: none;
+    color: white;
+    
+
+}
+
+.already-register NavLink{
+     text-decoration: none;
+     color: black;
+}
+
+.signup-title{
+    padding-top: 2vw;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.already-register{
+    padding-bottom: 1vw;
+}
+
+
+@media (max-width:600px) {
+    
+    .image-illustration{
+        display: none;
+    }
+
+    .already-register {
+     padding-left: 0;
+   }
+   .container{
+    margin-top: 5vw;
+
+}
+}

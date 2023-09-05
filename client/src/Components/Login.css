@@ -1,0 +1,21 @@
+.container{
+    margin-top: 14vw;
+}
+.login-title{
+    padding-left: 14vw;
+}
+.already-register{
+padding-left: 3.8vw;
+}
+@media (max-width:600px) {
+    .container{
+        margin-top: 18vw;
+    }
+    .login-title{
+        padding-left: 14vw;
+    }
+
+    .already-register{
+        padding-left: 12vw;
+        }
+}
